@@ -1,0 +1,18 @@
+.favoritesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.emptyFav {
+  flex-grow: 1;
+  text-align: center;
+  img {
+    width: 200px;
+  }
+
+  h2 {
+    color: #ffce7f;
+  }
+}

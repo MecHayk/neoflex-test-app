@@ -1,0 +1,66 @@
+.cartCard {
+  width: 633px;
+  height: 218px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  position: relative;
+}
+
+.imgTitle {
+  display: flex;
+  align-items: center;
+
+  padding-left: 18px;
+  padding-top: 18px;
+}
+
+.cartCardImg {
+  margin-right: 25px;
+  img {
+    width: 145px;
+    height: 135px;
+  }
+}
+
+.cartCardDelete {
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 28px;
+}
+
+.cartCardPriceCount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 18px;
+  padding-right: 28px;
+}
+
+.cartCardCount {
+  display: flex;
+  align-items: center;
+
+  button {
+    cursor: pointer;
+    background: #ffce7f;
+    border: #ffce7f;
+    border-radius: 50%;
+    width: 35px;
+    height: 30px;
+    color: #ffffff;
+  }
+
+  p {
+    padding-left: 23px;
+    padding-right: 23px;
+    font-weight: 600;
+  }
+}
+
+.cartCardPrice {
+  font-weight: 600;
+}

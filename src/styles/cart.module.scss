@@ -1,0 +1,25 @@
+.cartMain {
+  flex-grow: 1;
+}
+
+.cartWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.emptyCart {
+  flex-grow: 1;
+  text-align: center;
+  img {
+    width: 200px;
+  }
+
+  h2 {
+    color: #ffce7f;
+  }
+}
